@@ -16,13 +16,14 @@ body {
 }
 
 h1, h2 {
-    color: #5d268a;
-    text-align: center;
+    color: #380c88;
+    margin-left: 30px;
 }
 
 h1 {
     font-size: 40px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 
@@ -70,6 +71,7 @@ h2 {
 
 .other {
     margin-bottom: 40px;
+    text-decoration: underline;
 }
 
 .author-box img {
@@ -77,16 +79,32 @@ h2 {
     width: 100px;
     border-radius: 50%;
     float: left;
+    border: 2px solid red;
+    margin-bottom: 20px;
 }
 
 .blog-post img {
-    height: 150px;
+    height: 200px;
     width: auto;
-    border: 5px solid red;
+    border: 2px solid red;
+    padding: 20px;
 }
 
 .date {
     position: absolute;
     top: 10px;
     right: 30px;
+}
+
+.link {
+    color: rgb(38, 38, 236);
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    color: rgb(38, 38, 236);
+    margin-left: 10px;
+    margin-right: 150px;
+    font-weight: bold;
 }
